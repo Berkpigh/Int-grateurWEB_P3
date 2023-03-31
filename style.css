@@ -11,18 +11,15 @@ body {
 .head-cont {
     position: absolute;
     width: 1363px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .logo-booki {
-    position: absolute;
     width: 61.09px;
     height: 19px;
-    left: 0px;
-    top: 44px;
 }
 .ul-row {
-    position: absolute;
-    top: 48px;
-    left: 692px;
     width: 500px;
     height: 30px;
     padding: 0px;
@@ -60,7 +57,7 @@ body {
 }
 .abs1-2 {
     position: absolute;
-    left: 20px;
+    left: 0px;
     top: 0px;
 }
 #a-nav-heb {
@@ -72,13 +69,18 @@ body {
     text-decoration: none;
 }
 .rec-blue {
-    width: 220px;
     height: 2px;
     display: none;
     fill:rgb(255,255,255);
     fill-opacity:0;
     stroke-width:2;
     stroke:rgb(0,0,255);
+}
+.rec-blue, #rec1 {
+    width: 112px;
+}
+.rec-blue, #rec2 {
+    width: 65px;
 }
 .li-row:hover .rec-blue {
     display:inline;
