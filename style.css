@@ -713,11 +713,11 @@ br {
 /*-------------------------------------------  Mobiles  -------------------------------*/
 @media screen and (max-width: 768px) {
     body {
-        max-width: 768px;
+        max-width: 475px;
     }
     .head-cont {
-        width: 48.83%;
-        margin: 30px 196.5px 0 196.5px;
+        width: 78.94%;
+        margin: 30px 50px 0 50px;
         flex-direction: column;
         height: 70px;
     }
@@ -749,8 +749,8 @@ br {
         left: 0;
     }
     #main-main {
-        width: 48.83%;
-        margin: 30px 196.5px 0 196.5px;
+        width: 78.94%;
+        margin: 30px 50px 0 50px;
         height: 1290px;       
     }  
      #sec-main-fil {
@@ -959,8 +959,8 @@ br {
     }
 
     #foot {
-        width: 48.83%;
-        margin: 30px 196.5px 0 196.5px;
+        width: 78.94%;
+        margin: 30px 50px 0 50px;
         top: 3750px;
         height: 500px;
         display:flex;
