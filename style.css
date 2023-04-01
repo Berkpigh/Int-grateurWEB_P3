@@ -556,11 +556,7 @@ br {
         width: 160px;
         height: 30px;
     }
-    .abs1-1 {
-        position: absolute;
-        left: -10px;
-        top: -40px;
-    }
+
     .rec-blue {
         width: 180px;
     }
@@ -571,7 +567,7 @@ br {
     }
     #sec-main-fil {
         position:absolute;
-        width: 68.9%;
+        width: 880px;
         top: 126px;
     }
     .div-filtx {
@@ -596,7 +592,7 @@ br {
     }
     #asi-pop {
         top: 646px;
-        width: 100%;
+        width: 880px;
         height: 278px;
         left: 0px;
     }
@@ -717,13 +713,20 @@ br {
 /*-------------------------------------------  Mobiles  -------------------------------*/
 @media screen and (max-width: 768px) {
     body {
-        max-width: 375px;
-        top: 0px;
-        padding: 0;
+        max-width: 768px;
+    }
+    .head-cont {
+        width: 48.83%;
+        margin: 30px 196.5px 0 196.5px;
+        flex-direction: column;
+        height: 70px;
+    }
+    #ligne1 {
+        width: 100%;
     }
     .logo-booki {
         position: absolute;
-        left: 136px;
+        left: 150px;
     }
     .ul-row {
         left: 33px;
@@ -745,9 +748,14 @@ br {
         position: absolute;
         left: 0;
     }
-    #sec-main-fil {
+    #main-main {
+        width: 48.83%;
+        margin: 30px 196.5px 0 196.5px;
+        height: 1290px;       
+    }  
+     #sec-main-fil {
         position:absolute;
-        width: 335px;
+        width: 48.83%;
         left: 20px;
         top: 138px;
     }
@@ -826,7 +834,7 @@ br {
     #sec-heb {
         width: 375px;
         left: 0;
-        top: 580px;
+        top: 420px;
         height: 2000px;
     }
     #asi-pop {
@@ -896,15 +904,15 @@ br {
         width: 325px;
         height: 124px;
     }
-    
+    #div-aff-heb {
+        top: 1500px;
+    }
     #sec-act {
         width: 355px;
         left: 20px;
-        top: 2790px;
+        top: 2610px;
     }
-    #h2-act {
-        width: 110px;
-    }
+
     #div-act {
         width: 335px;
         top: 85px;
@@ -951,8 +959,9 @@ br {
     }
 
     #foot {
-/*        width: 375px;  */
-        top: 3800px;
+        width: 48.83%;
+        margin: 30px 196.5px 0 196.5px;
+        top: 3750px;
         height: 500px;
         display:flex;
         flex-direction: column;
