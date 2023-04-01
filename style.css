@@ -721,11 +721,18 @@ br {
     }
     .logo-booki {
         position: absolute;
-        left: 150px;
+        left: 130px;
+        height: 30px;
+    }
+    nav {
+        width: 100%;
+        height: 30px;
     }
     .ul-row {
+        position: absolute;
+        width: 100%
         left: 33px;
-        top: 104px;
+        top: 30px;
     }
     .rec-blue {
         width: 120px;
@@ -820,6 +827,16 @@ br {
         left: 30px;
     }
     /*--------------------------------------*/
+    #div-sec-heb {
+        position: absolute;
+        width: 100%;
+        top: 650px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        border-radius: 0;
+    }
+
     #sec-heb {
         width: 100%;
         left: 0;
@@ -864,15 +881,6 @@ br {
     .div-img-pop {
         width: 330px;
     }
-    #div-sec-heb {
-        position: absolute;
-        width: 78.94%;
-        top: 650px;
-        display: flex;
-        flex-direction: column;
-        background: #FFFFFF;
-        border-radius: 0;
-    }
     #h2-heb {
         top: 15px;
         left: 20px;
@@ -880,7 +888,7 @@ br {
     #div-grid-heb-card {
         position:absolute;
         display: grid;
-        grid-template-columns: 375px;
+        grid-template-columns: 425px;
         grid-template-rows: 235px 235px 235px 235px 235px 220px;
         margin-left: 0;
     }
@@ -895,9 +903,10 @@ br {
     }
     #div-aff-heb {
         top: 1500px;
+        left: 20px;
     }
     #sec-act {
-        width: 355px;
+        width: 100%;
         left: 20px;
         top: 2650px;
     }
