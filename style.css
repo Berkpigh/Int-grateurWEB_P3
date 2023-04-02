@@ -309,7 +309,7 @@ body {
     position: absolute;
     top: 91px;
     display: grid;
-    grid-template-columns: 38% 38% 38%;
+    grid-template-columns: 277px 277px 277px;
     grid-template-rows: 235px 220px;
     margin-left: 40px;
 }
@@ -709,6 +709,7 @@ br {
 @media screen and (max-width: 768px) {
     body {
         max-width: 475px;
+        top: 0;
     }
     .head-cont {
         width: 78.94%;
@@ -829,8 +830,9 @@ br {
     /*--------------------------------------*/
     #div-sec-heb {
         position: absolute;
+        top: 700px;
         width: 100%;
-        top: 650px;
+        height: 1550px;
         display: flex;
         flex-direction: column;
         background: #FFFFFF;
@@ -846,11 +848,10 @@ br {
     #asi-pop {
         top: 0px;
         width: 100%;
-        height: 570px;
+        height: 700px;
         display: flex;
         flex-direction: column;
         border-radius: 0;
-        padding-bottom: 50px;
     }
     #div-pop-t {
         margin: 20px 21px 0 20px;
@@ -889,7 +890,7 @@ br {
         position:absolute;
         display: grid;
         grid-template-columns: 425px;
-        grid-template-rows: 235px 235px 235px 235px 235px 220px;
+        grid-template-rows:  220px 220px 220px 220px 220px 220px;
         margin-left: 0;
     }
     .art-heb {
@@ -902,13 +903,14 @@ br {
         height: 124px;
     }
     #div-aff-heb {
-        top: 1500px;
+        top: 1410px;
         left: 20px;
     }
     #sec-act {
-        width: 100%;
+        top: 2600px;
         left: 20px;
-        top: 2650px;
+        width: 94.67%;
+        height: 1000px;
     }
 
     #div-act {
@@ -959,7 +961,7 @@ br {
     #foot {
         width: 78.94%;
         margin: 30px 50px 0 50px;
-        top: 3790px;
+        top: 3750px;
         height: 500px;
         display:flex;
         flex-direction: column;
