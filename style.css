@@ -240,15 +240,19 @@ nav {
 .div-filtx:hover {
     border-color: #0065FC;
     border-width: 2px;
+    background-color: #DEEBFF;
 }
 .svg-filt {
     color:#0065FC;
     width: 22px;
     height: 18px;
 }
+#a-eco {
+    text-decoration: none;
+    white-space: nowrap;
+}
 .div-filtx, #a-eco {
     width: 45%;
-    text-decoration: none;
 }
 .div-filtx, #a-fam {
     width: 32%;
