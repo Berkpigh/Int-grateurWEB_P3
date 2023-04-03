@@ -20,8 +20,14 @@ body {
     width: 61.09px;
     height: 19px;
 }
+#ligne1 {
+    width: 100%;
+}
+nav {
+    width: 26.12%;
+    height: 30px;
+}
 .ul-row {
-    width: 350px;
     height: 30px;
     padding: 0px;
     padding-inline: 0px;
@@ -32,7 +38,7 @@ body {
     justify-content: space-between;
 }
 .li-row {
-    width: 130px;
+    width: 50%;
     top: 0%;
     bottom: 0%;
     font-family: 'Raleway';
@@ -44,7 +50,7 @@ body {
 }
 
 .svg-rec {
-    width: 300px;
+/*    width: 46%; */
     height: 30px;
 }
 .rel1 {
@@ -124,10 +130,12 @@ body {
 }
 #div-form-fil {
     position: absolute;
+    width: 65.67%;
     top: 88px;
 }
 #form-fil {
     position: absolute;
+    width: 100%;    
     top: 30px;
 }
 .div-search {
@@ -149,7 +157,7 @@ body {
     border-radius: 15px 0px 0px 15px;
 }
 #inp-search {
-    width: 332px;
+    width: 33%;
     height: 49px;
     border: 1px solid #F2F2F2;
     left: 30px;
@@ -191,17 +199,18 @@ body {
 }
 #div-filters {
     display:flex;
+    justify-content: space-between;
     padding-top: 20px;
     align-items: center;
 }
 #div-filt {
     display:flex;
+    justify-content: space-between;
     padding-top: 20px;
     align-items: center;
 }
 #p-filt {
     margin: 0px 20px 0px 0px;
-    width: 54px;
     height: 21px;
     font-weight: 700;
     font-size: 18px;
@@ -211,14 +220,15 @@ body {
 }
 .div-filt1-2 {
     display: flex;
+    justify-content: space-between;
     padding-top: 20px;
 }
 .div-filtx {
     border-style: solid;
     border-radius: 30px;
     border-width: 1px;
-    padding: 15px 20px 23px 20px;
-    margin: 0px 10px 0px 10px;
+    padding: 15px 15px 23px 15px;
+    margin: 0px 0 0px 5px;
     height: 20px;
     font-style: normal;
     font-weight: 700;
@@ -236,20 +246,20 @@ body {
     width: 22px;
     height: 18px;
 }
-#a-eco {
-    width: 160px;
+.div-filtx, #a-eco {
+    width: 45%;
     text-decoration: none;
 }
-#a-fam {
-    width: 120px;
+.div-filtx, #a-fam {
+    width: 32%;
     text-decoration: none;
 }
-#a-rom {
-    width: 160px;
+.div-filtx, #a-rom {
+    width: 35%;
     text-decoration: none;
 }
-#a-ani {
-    width: 180px;
+.div-filtx, #a-ani {
+    width: 48%;
     text-decoration: none;
 }
 #div-info {
@@ -273,7 +283,7 @@ body {
 }
 #p-info {
     position:absolute;
-    width: 34369%;
+    top: 200px;
     height: 19px;
     left: 35px;
     margin-block-start: 0.3em;
@@ -310,6 +320,7 @@ body {
     top: 91px;
     display: grid;
     grid-template-columns: 277px 277px 277px;
+/*    grid-template-columns: 33% 33% 33%;*/
     grid-template-rows: 235px 220px;
     margin-left: 40px;
 }
@@ -319,7 +330,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: #FFFFFF;
-/*    width: 246px; */
+    width: 98%;
     height: 199px;
     border-radius: 20px;
     box-shadow: 0px 4px 12px #dad2d2;
@@ -350,6 +361,7 @@ body {
 }
 .div-img-heb {
     position: absolute;
+    width: 100%;
     box-sizing: border-box;
     left: 0%;
     right: 0%;
@@ -359,7 +371,7 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 .img-heb {
-    width: 236px;
+    width: 100%;
     height: 114px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
@@ -431,14 +443,14 @@ body {
     position: relative;
     display:flex;
     background: #FFFFFF;
-    width: 340px;
+    width: 81.93%;
     height: 144px;
     border-radius: 20px;
     margin: 25px 0 0px 0;
 }
 .div-img-pop {
     position: absolute;
-    width: 24.6%;
+    width: 40.24%;
     height: 134px;
     border: 5px solid #FFFFFF;
     border-radius: 20px;
@@ -446,7 +458,7 @@ body {
 }
 .img-pop {
     position: absolute;
-    width: 137px;
+    width: 100%;
     top: 1px;
     left: 1px;
     height: 130px;
@@ -457,7 +469,7 @@ body {
     position:absolute;
     left: 145px;
     display: grid;
-    grid-template-columns: 170px;
+    grid-template-columns: 185PX;
     grid-template-rows: 50px 24px 45px;
     padding: 12px 0 12px 12px;
 }
@@ -496,7 +508,7 @@ body {
     justify-content: space-between;
 }
 .art-act {
-    width: 302px;
+    width: 23.23%;
     height: 444.51px;
     border-radius: 20px;
 }
@@ -512,13 +524,13 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 .img-art {
-    width: 302px;
+    width: 100%;
     height: 388.51px;
     border-radius: 20px 20px 0px 0px;
 }
 .div-leg-img {
     position:relative;   
-    width: 292px;
+    width: 96.69%;
     height: 56px;
     bottom: -0.49px;
     border-style: solid;
@@ -584,9 +596,6 @@ br {
     .rec-blue {
         width: 180px;
     }
-    #div-form-fil {
-        width: 100%;
-    }
     #div-filt {
         display:flex;
         justify-content: space-between;
@@ -595,14 +604,11 @@ br {
         width: 5%;
     }
     .div-filt1-2 {
-        display: flex;
-        justify-content: space-between;
         margin-left: 2px;;
     }
     .div-filtx {
         margin: 0px 5px 0px 0px;
     }
-
     .div-filtx, #a-eco {
         width: 42%;
     }
@@ -770,9 +776,6 @@ br {
         margin: 30px 50px 0 50px;
         flex-direction: column;
         height: 70px;
-    }
-    #ligne1 {
-        width: 100%;
     }
     .logo-booki {
         position: absolute;
