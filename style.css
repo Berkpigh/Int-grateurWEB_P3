@@ -130,13 +130,8 @@ nav {
 }
 #div-form-fil {
     position: absolute;
-    width: 65.67%;
+    width: 100%;
     top: 88px;
-}
-#form-fil {
-    position: absolute;
-    width: 100%;    
-    top: 30px;
 }
 .div-search {
     position:relative;
@@ -199,7 +194,7 @@ nav {
 }
 #div-filters {
     display:flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 20px;
     align-items: center;
 }
