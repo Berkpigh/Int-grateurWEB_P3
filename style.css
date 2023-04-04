@@ -734,12 +734,9 @@ br {
         left: 33px;
         top: 30px;
     }
-    .rec-blue {
-        width: 120px;
-    }
     .svg-rec {
-        width: 120px;
-        height: 30px;
+        position: absolute;
+        top: 20px;
     }
     .abs1-1 {
     position: absolute;
