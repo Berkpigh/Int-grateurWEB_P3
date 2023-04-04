@@ -66,13 +66,10 @@ nav {
     left: 0px;
     top: 0px;
 }
-#a-nav-heb {
+.a-fil {
     color:black;
     text-decoration: none;
-}
-#a-nav-act {
-    color:black;
-    text-decoration: none;
+    white-space: nowrap;
 }
 .rec-blue {
     height: 2px;
@@ -194,7 +191,6 @@ nav {
 }
 #div-filters {
     display:flex;
-    flex-wrap: wrap;
     padding-top: 20px;
     align-items: center;
 }
@@ -212,11 +208,6 @@ nav {
     line-height: 21px;
     text-align: center;
     color: #000000;
-}
-.div-filt1-2 {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
 }
 .div-filtx {
     border-style: solid;
@@ -242,24 +233,17 @@ nav {
     width: 22px;
     height: 18px;
 }
-#a-eco {
-    text-decoration: none;
-    white-space: nowrap;
-}
 .div-filtx, #a-eco {
-    width: 45%;
+    width: 25%;
 }
 .div-filtx, #a-fam {
-    width: 32%;
-    text-decoration: none;
+    width: 20%;
 }
 .div-filtx, #a-rom {
-    width: 35%;
-    text-decoration: none;
+    width: 25%;
 }
 .div-filtx, #a-ani {
-    width: 48%;
-    text-decoration: none;
+    width: 30%;
 }
 #div-info {
     margin-top: 28px;
@@ -599,16 +583,16 @@ br {
         margin: 0px 5px 0px 0px;
     }
     .div-filtx, #a-eco {
-        width: 42%;
+        width: 20%;
     }
     .div-filtx, #a-fam {
-        width: 29%;
+        width: 15%;
     }
     .div-filtx, #a-rom {
-        width: 35%;
+        width: 20%;
     }
     .div-filtx, #a-ani {
-        width: 45%;
+        width: 25%;
     }
     #main-main {
         width: 88.71%;
@@ -768,7 +752,7 @@ br {
     }
     .ul-row {
         position: absolute;
-        width: 100%
+        width: 100%;
         left: 33px;
         top: 30px;
     }
