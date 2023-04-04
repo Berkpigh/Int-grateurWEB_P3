@@ -266,7 +266,7 @@ nav {
 }
 #p-info {
     position:absolute;
-    top: 200px;
+    top: 180px;
     height: 19px;
     left: 35px;
     margin-block-start: 0.3em;
@@ -807,42 +807,42 @@ br {
         border-radius: 0px 15px 15px 0px;
     }
     #div-filters {
-        display:flex;
         flex-direction: column;
-        align-items: start;
+        align-items:normal;
     }
     #div-filt {
         display:flex;
-        flex-direction: column;
-        justify-content:space-between;
+        justify-content: space-around;
+        flex-wrap: wrap;
         padding-top: 20px;
         align-items: center;
-        width: 335px;
-    }
-    .div-filt1-2 {
-        display: flex;
         width: 100%;
-        padding: 0 0 15px 0;
     }
     #p-filt {
         text-align: left;
     }
     .div-filtx {
-        margin: 0 15px 0 0;
+        position: relative;
+        margin: 0 15px 8px 0;
         padding: 12px 12px 12px 12px;
         font-size: 11px;
     }
-    #a-eco {
-        width: 130px;
+    .a-fil {
+        position: absolute;
+        top:7px;
+        left: 18px;
     }
-    #a-fam {
-        width: 90px;
+    .div-filtx, #a-eco {
+        width: 38%;
     }
-    #a-rom {
-        width: 100px;
+    .div-filtx, #a-fam {
+        width: 38%;
     }
-    #a-ani {
-        width: 120px;
+    .div-filtx, #a-rom {
+        width: 38%;
+    }
+    .div-filtx, #a-ani {
+        width: 38%;
     }
     #p-info {
         top: 250px;
